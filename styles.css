@@ -1,0 +1,80 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    background: radial-gradient(#9696e4, #4545ee);
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-size: 1.2rem;
+    width: 50%;
+    margin: 2rem auto;
+    padding: 20px;
+    text-align: center;
+    min-height: 5ovh;
+}
+
+#controls {
+    border: 1px lightgray solid;
+    border-radius: 1rem;
+    background-color: lightcyan;
+    padding: 1.5em;
+}
+#songList {
+    background: Lightcyan;
+    border-radius: 1rem;
+    text-align: left;
+}
+
+li{
+    padding: 1.5rem;
+}
+
+li:hover, svg:hover {
+    cursor: pointer;
+}
+
+svg {
+    color: lightslategray;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 2rem;
+}
+.range{
+   
+    width: 80%;
+    
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+   
+}
+
+.range::-webkit-slider-thumb {
+    cursor: pointer;
+
+}
+.range::-moz-range-thumb {
+   
+    cursor: pointer;
+
+}
+
+.range::-moz-focus-outer {
+     border: 0;
+}
+
+#volume {
+    align-self: center;
+}
+
+progress {
+    width: 80%;
+    margin: 1rem;
+}
+span {
+    font-weight: lighter;
+    font-size: 2rem;
+    margin: 1rem;
+}
